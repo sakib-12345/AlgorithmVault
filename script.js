@@ -207,7 +207,7 @@ function renderHome(list, all=false) {
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
             Search Algorithms
           </button>
-          <a href="/Progress/" style="
+          <a href="/pages/progress/" style="
             display:inline-flex;align-items:center;gap:6px;
             padding:10px 16px;border-radius:10px;
             border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
@@ -216,7 +216,7 @@ function renderHome(list, all=false) {
           " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
             Progress & Notice
           </a>
-          <a href="/learn-algorithms/" style="
+          <a href="/pages/learn/" style="
             display:inline-flex;align-items:center;gap:6px;
             padding:10px 16px;border-radius:10px;
             border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
@@ -225,7 +225,7 @@ function renderHome(list, all=false) {
           " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
             Become an Expert
           </a>
-          <a href="/vault-player/" style="
+          <a href="/pages/player/" style="
             display:inline-flex;align-items:center;gap:6px;
             padding:10px 16px;border-radius:10px;
             border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
@@ -234,7 +234,7 @@ function renderHome(list, all=false) {
           " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
             Learning Videos
           </a>
-           <a href="/Mobile/download/" style="
+           <a href="/pages/mobile/download/" style="
             display:inline-flex;align-items:center;gap:6px;
             padding:10px 16px;border-radius:10px;
             border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
@@ -243,7 +243,7 @@ function renderHome(list, all=false) {
           " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
             Mobile App
           </a>
-           <a href="/blogs/" style="
+           <a href="/pages/blogs/" style="
             display:inline-flex;align-items:center;gap:6px;
             padding:10px 16px;border-radius:10px;
             border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
