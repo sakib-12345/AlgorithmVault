@@ -306,11 +306,10 @@ function renderHome(list, all=false) {
             <p class="text-xs mt-1" style="color:var(--txt-muted)">Thank you for visiting</p>
           </div>
           <div class="flex flex-wrap justify-center gap-3 text-sm">
-            <a href="https://www.facebook.com/sakibhossain.tahmid" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">Facebook</a>
-            <a href="https://www.instagram.com/_sakib_000001" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">Instagram</a>
-            <a href="https://x.com/_sakib_00000001" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">X</a>
-            <a href="https://github.com/sakib-12345" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">GitHub</a>
-            <a href="mailto:sakibhossaintahmid@gmail.com" class="btn-primary px-4 py-2 text-sm">Email Me</a>
+            <a href="https://www.facebook.com/share/1J32f9gMEL/" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">Facebook</a>
+            <a href="http://www.youtube.com/@AlgorithmVault-sht" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">Youtube</a>
+            <a href="https://github.com/sakib-12345/AlgorithmVault" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">GitHub</a>
+            <a href="mailto:algorithmvault.official@gmail.com" class="btn-primary px-4 py-2 text-sm">Email Me</a>
           </div>
         </div>
         <div class="text-center mt-8 text-xs" style="color:var(--txt-muted)">
