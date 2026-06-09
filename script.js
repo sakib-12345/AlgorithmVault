@@ -313,6 +313,9 @@ function renderHome(list, all=false) {
           </div>
         </div>
         <div class="text-center mt-8 text-xs" style="color:var(--txt-muted)">
+          ✉ algorithmvault.official@gmail.com
+        </div>
+        <div class="text-center mt-8 text-xs" style="color:var(--txt-muted)">
           &copy; ${new Date().getFullYear()} Shakib Hossain Tahmid - All rights reserved
         </div>
       </div>
