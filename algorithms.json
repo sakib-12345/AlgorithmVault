@@ -47,6 +47,7 @@
   {
     "id": "merge-sort",
     "name": "Merge Sort",
+    "videoId":"tjwnT3hm3rw",
     "hint": "Stable divide-and-conquer O(n log n) sorting",
     "difficulty": "medium",
     "time": "O(n log n)",
@@ -61,6 +62,7 @@
   {
     "id": "linear-search",
     "name": "Linear Search",
+    "videoId":"icu4CblqyYI",
     "hint": "Simple sequential scan through a collection",
     "difficulty": "easy",
     "time": "O(n)",
@@ -75,6 +77,7 @@
   {
     "id": "insertion-sort",
     "name": "Insertion Sort",
+    "videoId":"6BGLCz4VWis",
     "hint": "Build sorted array one element at a time",
     "difficulty": "easy",
     "time": "O(n²)",
