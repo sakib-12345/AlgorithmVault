@@ -207,16 +207,7 @@ function renderHome(list, all=false) {
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
             Search Algorithms
           </button>
-          <a href="/Progress/" style="
-            display:inline-flex;align-items:center;gap:6px;
-            padding:10px 16px;border-radius:10px;
-            border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
-            background:rgba(0,229,195,0.08);font-size:13px;
-            font-family:'DM Mono', monospace;text-decoration:none;transition:0.2s;
-          " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
-            Progress & Notice
-          </a>
-          <a href="/learn-algorithms/" style="
+          <a href="/pages/learn/" style="
             display:inline-flex;align-items:center;gap:6px;
             padding:10px 16px;border-radius:10px;
             border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
@@ -225,7 +216,7 @@ function renderHome(list, all=false) {
           " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
             Become an Expert
           </a>
-          <a href="/vault-player/" style="
+          <a href="/pages/player/" style="
             display:inline-flex;align-items:center;gap:6px;
             padding:10px 16px;border-radius:10px;
             border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
@@ -234,7 +225,7 @@ function renderHome(list, all=false) {
           " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
             Learning Videos
           </a>
-           <a href="/Mobile/download/" style="
+           <a href="/pages/mobile/download/" style="
             display:inline-flex;align-items:center;gap:6px;
             padding:10px 16px;border-radius:10px;
             border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
@@ -243,15 +234,7 @@ function renderHome(list, all=false) {
           " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
             Mobile App
           </a>
-           <a href="/blogs/" style="
-            display:inline-flex;align-items:center;gap:6px;
-            padding:10px 16px;border-radius:10px;
-            border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
-            background:rgba(0,229,195,0.08);font-size:13px;
-            font-family:'DM Mono', monospace;text-decoration:none;transition:0.2s;
-          " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
-            News Feed
-          </a>
+           
         </div>
         <div class="flex flex-wrap gap-6 justify-center mt-10">
           <div class="text-center"><p class="text-sm font-semibold">Fast</p><p class="text-xs" style="color:var(--txt-muted)">O(log n) to O(n^2)</p></div>
@@ -306,12 +289,14 @@ function renderHome(list, all=false) {
             <p class="text-xs mt-1" style="color:var(--txt-muted)">Thank you for visiting</p>
           </div>
           <div class="flex flex-wrap justify-center gap-3 text-sm">
-            <a href="https://www.facebook.com/sakibhossain.tahmid" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">Facebook</a>
-            <a href="https://www.instagram.com/_sakib_000001" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">Instagram</a>
-            <a href="https://x.com/_sakib_00000001" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">X</a>
-            <a href="https://github.com/sakib-12345" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">GitHub</a>
-            <a href="mailto:sakibhossaintahmid@gmail.com" class="btn-primary px-4 py-2 text-sm">Email Me</a>
+            <a href="https://www.facebook.com/share/1J32f9gMEL/" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">Facebook</a>
+            <a href="http://www.youtube.com/@AlgorithmVault-sht" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">Youtube</a>
+            <a href="https://github.com/sakib-12345/AlgorithmVault" target="_blank" class="btn-ghost flex items-center gap-2 px-3 py-2">GitHub</a>
+            <a href="mailto:algorithmvault.official@gmail.com" class="btn-primary px-4 py-2 text-sm">Email Me</a>
           </div>
+        </div>
+        <div class="text-center mt-8 text-xs" style="color:var(--txt-muted)">
+          ✉ algorithmvault.official@gmail.com
         </div>
         <div class="text-center mt-8 text-xs" style="color:var(--txt-muted)">
           &copy; ${new Date().getFullYear()} Shakib Hossain Tahmid - All rights reserved

@@ -47,6 +47,7 @@
   {
     "id": "merge-sort",
     "name": "Merge Sort",
+    "videoId":"tjwnT3hm3rw",
     "hint": "Stable divide-and-conquer O(n log n) sorting",
     "difficulty": "medium",
     "time": "O(n log n)",
@@ -61,6 +62,7 @@
   {
     "id": "linear-search",
     "name": "Linear Search",
+    "videoId":"icu4CblqyYI",
     "hint": "Simple sequential scan through a collection",
     "difficulty": "easy",
     "time": "O(n)",
@@ -75,6 +77,7 @@
   {
     "id": "insertion-sort",
     "name": "Insertion Sort",
+    "videoId":"6BGLCz4VWis",
     "hint": "Build sorted array one element at a time",
     "difficulty": "easy",
     "time": "O(n²)",
@@ -89,6 +92,7 @@
   {
     "id": "selection-sort",
     "name": "Selection Sort",
+    "videoId":"OkgbpI8c_RY",
     "hint": "Select minimum and place in sorted position",
     "difficulty": "easy",
     "time": "O(n²)",
@@ -103,25 +107,31 @@
   {
     "id": "dfs",
     "name": "Depth-First Search",
+    "videoId":"vDOU94xv1Qw",
     "hint": "Explore graph as deep as possible before backtracking",
     "difficulty": "medium",
     "time": "O(V+E)",
     "space": "O(V)",
     "tags": ["graph", "traversal"],
     "files": {
-      "python": "algorithms/dfs/dfs.py"
+      "python": "algorithms/dfs/dfs.py",
+      "cpp": "algorithms/dfs/dfs.cpp",
+      "java": "algorithms/dfs/dfs.java"
     }
   },
   {
     "id": "bfs",
     "name": "Breadth-First Search",
+    "videoId":"l9XLrvwDzfU",
     "hint": "Explore graph level by level using a queue",
     "difficulty": "medium",
     "time": "O(V+E)",
     "space": "O(V)",
     "tags": ["graph", "traversal"],
     "files": {
-      "python": "algorithms/bfs/bfs.py"
+      "python": "algorithms/bfs/bfs.py",
+      "cpp": "algorithms/bfs/bfs.cpp",
+      "java": "algorithms/bfs/bfs.java"
     }
   },
   {
@@ -133,7 +143,9 @@
     "space": "O(V)",
     "tags": ["graph", "shortest-path"],
     "files": {
-      "python": "algorithms/dijkstra/dijkstra.py"
+      "python": "algorithms/dijkstra/dijkstra.py",
+      "cpp": "algorithms/dijkstra/dijkstra.cpp",
+      "java": "algorithms/dijkstra/dijkstra.java"
     }
   },
   {
