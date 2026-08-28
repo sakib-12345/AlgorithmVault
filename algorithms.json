@@ -92,6 +92,7 @@
   {
     "id": "selection-sort",
     "name": "Selection Sort",
+    "videoId":"OkgbpI8c_RY",
     "hint": "Select minimum and place in sorted position",
     "difficulty": "easy",
     "time": "O(n²)",
@@ -106,6 +107,7 @@
   {
     "id": "dfs",
     "name": "Depth-First Search",
+    "videoId":"vDOU94xv1Qw",
     "hint": "Explore graph as deep as possible before backtracking",
     "difficulty": "medium",
     "time": "O(V+E)",
@@ -120,6 +122,7 @@
   {
     "id": "bfs",
     "name": "Breadth-First Search",
+    "videoId":"l9XLrvwDzfU",
     "hint": "Explore graph level by level using a queue",
     "difficulty": "medium",
     "time": "O(V+E)",
