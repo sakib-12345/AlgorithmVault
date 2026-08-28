@@ -207,15 +207,6 @@ function renderHome(list, all=false) {
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
             Search Algorithms
           </button>
-          <a href="/pages/progress/" style="
-            display:inline-flex;align-items:center;gap:6px;
-            padding:10px 16px;border-radius:10px;
-            border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
-            background:rgba(0,229,195,0.08);font-size:13px;
-            font-family:'DM Mono', monospace;text-decoration:none;transition:0.2s;
-          " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
-            Progress & Notice
-          </a>
           <a href="/pages/learn/" style="
             display:inline-flex;align-items:center;gap:6px;
             padding:10px 16px;border-radius:10px;
@@ -243,15 +234,7 @@ function renderHome(list, all=false) {
           " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
             Mobile App
           </a>
-           <a href="/pages/blogs/" style="
-            display:inline-flex;align-items:center;gap:6px;
-            padding:10px 16px;border-radius:10px;
-            border:1px solid rgba(0,229,195,0.3);color:#00e5c3;
-            background:rgba(0,229,195,0.08);font-size:13px;
-            font-family:'DM Mono', monospace;text-decoration:none;transition:0.2s;
-          " onmouseover="this.style.boxShadow='0 0 15px rgba(0,229,195,0.3)'" onmouseout="this.style.boxShadow='none'">
-            News Feed
-          </a>
+           
         </div>
         <div class="flex flex-wrap gap-6 justify-center mt-10">
           <div class="text-center"><p class="text-sm font-semibold">Fast</p><p class="text-xs" style="color:var(--txt-muted)">O(log n) to O(n^2)</p></div>
