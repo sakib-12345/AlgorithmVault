@@ -112,7 +112,9 @@
     "space": "O(V)",
     "tags": ["graph", "traversal"],
     "files": {
-      "python": "algorithms/dfs/dfs.py"
+      "python": "algorithms/dfs/dfs.py",
+      "cpp": "algorithms/dfs/dfs.cpp",
+      "java": "algorithms/dfs/dfs.java"
     }
   },
   {
@@ -124,7 +126,9 @@
     "space": "O(V)",
     "tags": ["graph", "traversal"],
     "files": {
-      "python": "algorithms/bfs/bfs.py"
+      "python": "algorithms/bfs/bfs.py",
+      "cpp": "algorithms/bfs/bfs.cpp",
+      "java": "algorithms/bfs/bfs.java"
     }
   },
   {
@@ -136,7 +140,9 @@
     "space": "O(V)",
     "tags": ["graph", "shortest-path"],
     "files": {
-      "python": "algorithms/dijkstra/dijkstra.py"
+      "python": "algorithms/dijkstra/dijkstra.py",
+      "cpp": "algorithms/dijkstra/dijkstra.cpp",
+      "java": "algorithms/dijkstra/dijkstra.java"
     }
   },
   {
