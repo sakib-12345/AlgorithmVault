@@ -134,7 +134,7 @@ function card(item){
   : `<span class="video" style="color:#6e7681">No video yet</span>`;
  const el=document.createElement("article");
  el.className="card "+st;
- el.innerHTML=`<div class="indicator"></div><div class="title">${esc(item.name||item.id||"Unnamed Algorithm")}</div><div class="hint">${esc(item.hint||"")}</div><div class="meta"><span class="badge">${esc(item.difficulty||"Unknown")}</span>${item.time?`<span class="badge">${esc(item.time)}</span>`:""}${tags}</div><div class="files">${badge(f,"python","Python")}${badge(f,"java","Java")}${badge(f,"cpp","C++")}</div>${vid}`;
+ el.innerHTML=`<div class="indicator"></div><div class="title">${esc(item.name||item.id||"Unnamed Algorithm")}</div><div class="hint">${esc(item.id||"")}<br>${esc(item.hint||"")}</div><div class="meta"><span class="badge">${esc(item.difficulty||"Unknown")}</span>${item.time?`<span class="badge">${esc(item.time)}</span>`:""}${tags}</div><div class="files">${badge(f,"python","Python")}${badge(f,"java","Java")}${badge(f,"cpp","C++")}</div>${vid}`;
  return el;
 }
 
