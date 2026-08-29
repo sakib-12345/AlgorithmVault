@@ -1,5 +1,5 @@
 
-# Algorithm Vault
+# Algorithm Vault date:6-8-26
 > [!NOTE]
 > *Algorithm Vault is not fully ready yet.  We’ll add the more algorithms table here and in the web soon — You can review some of them for now.*
 
