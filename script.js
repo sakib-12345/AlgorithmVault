@@ -380,12 +380,7 @@ async function showDetail(id) {
           <p class="font-mono text-xl font-500" style="color:#a5a0ff">${algo.space || 'N/A'}</p>
         </div>
       </div>
-      ${readmeHtml ? `
-      <div class="glass rounded-2xl p-6 mb-8">
-        <p class="section-label mb-4">Explanation</p>
-        <div class="md-content">${readmeHtml}</div>
-      </div>` : ''}
-       ${algo.videoId ? `
+             ${algo.videoId ? `
         <div class="glass rounded-2xl p-4 mb-8">
           <div class="flex items-center justify-between mb-4">
             <p class="section-label">Video Explanation</p>
@@ -418,6 +413,12 @@ async function showDetail(id) {
           </div>
         </div>
         ` : ''}
+      ${readmeHtml ? `
+      <div class="glass rounded-2xl p-6 mb-8">
+        <p class="section-label mb-4">Explanation</p>
+        <div class="md-content">${readmeHtml}</div>
+      </div>` : ''}
+
       <div class="glass rounded-2xl overflow-hidden">
         <div class="flex items-center justify-between px-4 py-3" style="border-bottom:1px solid var(--border)">
           <p class="section-label">Source Code</p>
