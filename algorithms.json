@@ -137,6 +137,7 @@
   {
     "id": "dijkstra",
     "name": "Dijkstra's Algorithm",
+     "videoId":"OA0b79urmEE",
     "hint": "Shortest path in weighted graphs",
     "difficulty": "medium",
     "time": "O((V+E) log V)",
